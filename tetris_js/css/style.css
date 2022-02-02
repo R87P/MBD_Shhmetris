@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Supermercado+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/—Pngtree—jungle_5631421.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    font-family: 'Supermercado One', cursive;
+    /* font-size: x-large; */
+    color: #218380;
+    text-shadow: 6px 6px 55px 55px #ffff;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(150, 173, 200, 0.7);
+    border-radius: 15%;
+    
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+
+}
+
+.tetromino {
+    background-color: blue;
+    border: 2px solid black;
+   
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(138, 43, 226, 0.7);
+    border-radius: 15%;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
