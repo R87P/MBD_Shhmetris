@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 * {
     box-sizing: border-box;
@@ -15,11 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5%;
-    font-family: 'Supermercado One', cursive;
-    /* font-size: x-large; */
-    color: #218380;
-    text-shadow: 6px 6px 55px 55px #ffff;
+    margin-bottom: 1%;
+    font-family: 'Bungee Shade', cursive;
+    font-size: x-large;
+    color: 313715;
+    /* text-shadow: 2px 2px #664228; */
 }
 
 .flex-grid {
@@ -32,9 +32,8 @@ body {
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(150, 173, 200, 0.7);
-    border-radius: 15%;
-    
+    background-color: rgba(213, 218, 223, 0.4);
+  
 }
 
 .grid div {
@@ -55,11 +54,39 @@ body {
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(138, 43, 226, 0.7);
-    border-radius: 15%;
+    /* background-color: rgba(248, 252, 250, 0.3); */
+
 }
 
 .mini-grid div {
     height: 20px;
     width: 20px;
+}
+
+
+.mini-tut {
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.mini-tut div {
+    height: 50px;
+    width: 50px;
+}
+
+.btns {
+    /* font-family: 'Bungee Shade', cursive; */
+    color: #161615;
+    /* text-shadow: 2px 2px rgb(8, 8, 8); */
+    font-size: large;
+}
+.btns-controls {
+    font-family: 'Bungee Shade', cursive;
+    color: #664228;
+    /* text-shadow: 2px 2px rgb(8, 8, 8); */
+    font-size: medium;
 }
